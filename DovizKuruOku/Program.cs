@@ -27,6 +27,8 @@ namespace DovizKuruOku
                 var satisText = kurSatisElement.FindElements(By.TagName("span"))[1].Text;
                 Console.WriteLine($"Alis:{alisText}");
                 Console.WriteLine($"Satis:{satisText}");
+
+
             }
         }
     }
